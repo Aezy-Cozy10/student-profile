@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>🌷Aezy Cozy🌷|Student Profile</title>
+    </head>
+    <body id="body">
+        <!-- ==========================Welcome Screen========================== -->
+        <section id="welcomePage">
+        <div class="welcomeCard">
+        <h1>🌷Aezy Cozy🌷</h1>
+        <h2>Student Profile Studio</h2>
+        <p class="welcomeText">
+            Build • Create • Interact</p>
+        <div class="techStack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>DOM</span>
+        </div>
+        <p class="credit">
+            Crafted with care by<br>Team Aezies 💜</p>
+        <button id="startBtn">
+            Start Project →
+        </button>
+        </div>
+        </section>
+        <!-- ==========================Student Page========================== -->
+        <section id="studentPage">
+        <header class="studentHeader" id="studentHeader">
+        <h1>Student Profile Studio</h1>
+        <p>Create your own interactive profile using HTML, CSS & JavaScript.</p>
+        </header>
+        <main class="workspace">
+        <!-- Left Side -->
+        <div class="editor" id="editor">
+            <h2>Create Profile</h2>
+            <input
+                type="text"
+                id="studentName"
+                placeholder="Student Name">
+            <input
+                type="number"
+                id="studentAge"
+                placeholder="Age">
+            <input
+                type="text"
+                id="studentSubject"
+                placeholder="Favorite Subject">
+            <input
+                type="text"
+                id="favoriteColor"
+                placeholder="Favorite Color">
+                <div class="genderBox">
+                <p>Select Gender</p>
+                <div class="genderOptions">
+                    <label class="genderOption">
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="female"
+                            checked>
+                        <span>Female</span>
+                    </label>
+                    <label class="genderOption">
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="male">
+                        <span>Male</span>
+                    </label>
+                </div>
+            </div>
+                <div class="buttons">
+                <button id="createBtn">
+                    Create Profile
+                </button>
+                <button id="themeBtn">
+                    Change Theme
+                </button>
+                <button id="hideBtn">
+                    Hide Profile
+                </button>
+                <button id="resetBtn">
+                    Reset
+                </button>
+            </div>
+            </div>
+            <!-- Right Side -->
+            <div
+            class="profileCard lightTheme"
+            id="profileCard">
+            <div
+            class="avatar"
+            id="avatar">
+
+                 👩🏻
+
+            </div>
+            <h2 id="displayName">
+
+                Your Name
+
+            </h2>
+            <p id="displayAge">
+
+                Age
+
+            </p>
+            <p id="displaySubject">
+
+                Favorite Subject
+
+            </p>
+        </div>
+        </main>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
